@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.MuiSvgIcon-root {
+  color: #66fcf1;
+}

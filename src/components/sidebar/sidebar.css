@@ -1,0 +1,39 @@
+.sidebar {
+  flex: 1;
+  height: calc(100vh - 4rem);
+  background-color: #1f2833;
+  position: sticky;
+  top: 4rem;
+}
+
+.sidebar__wrapper {
+  padding: 1rem;
+  color: #c5c6c7;
+}
+
+.sidebar__menu {
+  margin-bottom: 1rem;
+}
+
+.sidebar__list {
+  list-style: none;
+  padding: 0.25rem;
+}
+
+.sidebar__listitem {
+  padding: 0.25rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 0.625rem;
+  margin-bottom: 1rem;
+}
+
+.sidebar__listitem:hover {
+  background-color: #45a29e;
+}
+
+.sidebar__icon {
+  margin-right: 0.25rem;
+  font-size: 1.25rem !important;
+}

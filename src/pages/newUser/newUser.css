@@ -1,0 +1,64 @@
+.newUser {
+  flex: 4;
+}
+
+.newUser__wrapper {
+  padding: 1rem;
+}
+
+.newUser__title {
+  color: #c5c6c7;
+}
+
+.newUser__form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newUser__item {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.75rem;
+  margin-right: 1.25rem;
+}
+
+.newUser__item > label {
+  color: #66fcf1;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.newUser__item > input {
+  height: 20px;
+  padding: 10px;
+  border: 1px solid #c5c6c7;
+  border-radius: 5px;
+}
+
+.newUser__gender > input {
+  margin-top: 1rem;
+}
+
+.newUser__gender > label {
+  margin: 0.5rem;
+  font-size: 1rem;
+  color: #c5c6c7;
+}
+
+.newUser__select {
+  height: 2.5rem;
+  border-radius: 0.25rem;
+}
+
+.newUser__button {
+  width: 8rem;
+  margin-top: 0.625rem;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  border-radius: 0.75rem;
+  background-color: #66fcf1;
+  color: #c5c6c7;
+  font-weight: 600;
+  cursor: pointer;
+}
